@@ -79,7 +79,7 @@ A fork of the WalksyCrystal mod for Minecraft Fabric. It improves the placement 
 | **Vanilla** | 250ms | 250ms | Vanilla Minecraft behavior |
 | **Legit** | 100ms | 100ms | Subtle improvement, hard to detect |
 | **Balanced** | 50ms | 50ms | Balance between performance and legitimacy |
-| **Aggressive** | 25ms | 25ms | Maximum performance (more detectable) |
+| **Performance** | 25ms | 25ms | Maximum performance (more detectable) |
 
 ### Controls
 
