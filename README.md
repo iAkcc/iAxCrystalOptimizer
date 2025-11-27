@@ -135,9 +135,6 @@ To avoid detectable patterns, the mod adds a 30% random variation to the packet 
 > [!IMPORTANT]
 > The mod implements anti-detection measures, but does not guarantee that it is 100% undetectable on all servers. Always check the server rules before using.
 
-> [!NOTE]
-> The "Vanilla" mode is designed to be completely legitimate and should not be detectable, as it replicates vanilla Minecraft behavior.
-
 ---
 
 ## 🤝 Contributing
