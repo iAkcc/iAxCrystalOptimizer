@@ -7,7 +7,6 @@ A fork of the WalksyCrystal mod for Minecraft Fabric. It improves the placement 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1--1.21.4-brightgreen.svg)](https://www.minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Fabric-0.16.0+-orange.svg)](https://fabricmc.net/)
 [![Java](https://img.shields.io/badge/Java-21+-blue.svg)](https://www.oracle.com/java/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
@@ -81,7 +80,6 @@ A fork of the WalksyCrystal mod for Minecraft Fabric. It improves the placement 
 | **Legit** | 100ms | 100ms | Subtle improvement, hard to detect |
 | **Balanced** | 50ms | 50ms | Balance between performance and legitimacy |
 | **Aggressive** | 25ms | 25ms | Maximum performance (more detectable) |
-| **Custom** | Custom | Custom | Define your own values |
 
 ### Controls
 
