@@ -2,12 +2,11 @@
 
 > **Place Crystals at the speed of light.**
 
-Un mod de Minecraft Fabric optimizado para mejorar drásticamente la velocidad de colocación y destrucción de cristales de End, diseñado para jugadores de PvP Crystal que buscan el máximo rendimiento.
+A fork of the WalksyCrystal mod for Minecraft Fabric. It improves the placement and destruction speed of End Crystals, designed for PvP Crystal players seeking maximum speed.
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1--1.21.4-brightgreen.svg)](https://www.minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Fabric-0.16.0+-orange.svg)](https://fabricmc.net/)
 [![Java](https://img.shields.io/badge/Java-21+-blue.svg)](https://www.oracle.com/java/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
