@@ -15,11 +15,11 @@ A fork of the WalksyCrystal mod for Minecraft Fabric. It improves the placement 
 ### 🚀 Crystal Optimization
 - **Ultra-Fast Placement**: Places End Crystals at optimized speeds
 - **Enhanced Destruction**: Breaks crystals with minimal latency
-- **Anti-Detection System**: Implements adaptive cooldowns and random variation to avoid detectable patterns
+- **Usage**: Use responsibly
 - **Adaptive Packet Limit**: Automatically adjusts the packet limit based on your ping
 
 ### ⚙️ Configuration System
-- **Multiple Modes**: Vanilla, Legit, Balanced, Aggressive, Custom
+- **Multiple Modes**: Legit, Balanced, Performance.
 - **Customizable Settings**: Adjust placement and destruction cooldowns to suit your needs
 - **In-Game Commands**: Activate/deactivate the optimizer with simple commands
 - **MidnightLib Integration**: Intuitive configuration interface
