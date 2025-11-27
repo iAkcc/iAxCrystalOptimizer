@@ -7,158 +7,160 @@ A fork of the WalksyCrystal mod for Minecraft Fabric. It improves the placement 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1--1.21.4-brightgreen.svg)](https://www.minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Fabric-0.16.0+-orange.svg)](https://fabricmc.net/)
 [![Java](https://img.shields.io/badge/Java-21+-blue.svg)](https://www.oracle.com/java/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
-## 📋 Características
+## 📋 Features
 
-### 🚀 Optimización de Cristales
-- **Colocación Ultra-Rápida**: Coloca cristales de End a velocidades optimizadas
-- **Destrucción Mejorada**: Rompe cristales con latencia mínima
-- **Sistema Anti-Detección**: Implementa cooldowns adaptativos y variación aleatoria para evitar patrones detectables
-- **Límite Adaptativo de Paquetes**: Ajusta automáticamente el límite de paquetes basándose en tu ping
+### 🚀 Crystal Optimization
+- **Ultra-Fast Placement**: Places End Crystals at optimized speeds
+- **Enhanced Destruction**: Breaks crystals with minimal latency
+- **Anti-Detection System**: Implements adaptive cooldowns and random variation to avoid detectable patterns
+- **Adaptive Packet Limit**: Automatically adjusts the packet limit based on your ping
 
-### ⚙️ Sistema de Configuración
-- **Múltiples Modos**: Vanilla, Legit, Balanced, Aggressive, Custom
-- **Configuración Personalizable**: Ajusta cooldowns de colocación y destrucción según tus necesidades
-- **Comandos en el Juego**: Activa/desactiva el optimizador con comandos simples
-- **Integración con MidnightLib**: Interfaz de configuración intuitiva
+### ⚙️ Configuration System
+- **Multiple Modes**: Vanilla, Legit, Balanced, Aggressive, Custom
+- **Customizable Settings**: Adjust placement and destruction cooldowns to suit your needs
+- **In-Game Commands**: Activate/deactivate the optimizer with simple commands
+- **MidnightLib Integration**: Intuitive configuration interface
 
-### 🎯 Características Técnicas
-- **Verificación del Lado del Servidor**: Validación adecuada para evitar desincronización
-- **Optimización de Raycast**: Detección precisa de bloques y entidades
-- **Soporte Multi-Entidad**: Compatible con End Crystals, Slimes y Magma Cubes
-- **Cooldown Inteligente**: Sistema de cooldown que previene spam excesivo
+### 🎯 Technical Features
+- **Server-Side Verification**: Proper validation to prevent desynchronization
+- **Raycast Optimization**: Accurate detection of blocks and entities
+- **Multi-Entity Support**: Compatible with End Crystals, Slimes, and Magma Cubes
+- **Intelligent Cooldown**: Cooldown system that prevents excessive spam
 
 ---
 
-## 📦 Instalación
+## 📦 Installation
 
-### Requisitos Previos
+### Prerequisites
 - **Minecraft**: 1.21.1 - 1.21.4
-- **Fabric Loader**: 0.16.0 o superior
-- **Java**: 21 o superior
-- **Fabric API**: Última versión
-- **MidnightLib**: Última versión
+- **Fabric Loader**: 0.16.0 or higher
+- **Java**: 21 or higher
+- **Fabric API**: Latest version
+- **MidnightLib**: Latest version
 
-### Pasos de Instalación
+### Installation Steps
 
-1. **Descarga el Mod**
-   - Ve a la sección [Releases](https://github.com/iAkcc/iAxCrystalOptimizer/releases)
-   - Descarga el archivo `.jar` más reciente
+1. **Download the Mod**
+   - Go to the [Releases](https://github.com/iAkcc/iAxCrystalOptimizer/releases) section
+   - Or visit [Modrinth](https://modrinth.com/mod/iaxcrystaloptimizer)
+   - Download the latest `.jar` file
 
-2. **Instala las Dependencias**
-   - Descarga [Fabric API](https://modrinth.com/mod/fabric-api)
-   - Descarga [MidnightLib](https://modrinth.com/mod/midnightlib)
+2. **Install Dependencies**
+   - Download [Fabric API](https://modrinth.com/mod/fabric-api)
+   - Download [MidnightLib](https://modrinth.com/mod/midnightlib)
 
-3. **Coloca los Archivos**
-   - Abre tu carpeta `.minecraft/mods`
-   - Coloca `iaxcrystaloptimizer-1.4.0.jar`, Fabric API y MidnightLib en la carpeta
+3. **Place the Files**
+   - Open your `.minecraft/mods` folder
+   - Place `iaxcrystaloptimizer-1.4.0.jar`, Fabric API, and MidnightLib in the folder
 
-4. **Inicia Minecraft**
-   - Selecciona el perfil de Fabric
-   - ¡Disfruta del mod!
-
----
-
-## 🎮 Uso
-
-### Comandos Disponibles
-
-```
-/optimizer toggle - Activa/desactiva el optimizador
-/optimizer enable - Activa el optimizador
-/optimizer disable - Desactiva el optimizador
-```
-
-### Modos de Configuración
-
-| Modo | Cooldown Colocación | Cooldown Destrucción | Descripción |
-|------|---------------------|----------------------|-------------|
-| **Vanilla** | 250ms | 250ms | Comportamiento vanilla de Minecraft |
-| **Legit** | 100ms | 100ms | Mejora sutil, difícil de detectar |
-| **Balanced** | 50ms | 50ms | Balance entre rendimiento y legitimidad |
-| **Aggressive** | 25ms | 25ms | Máximo rendimiento (más detectable) |
-| **Custom** | Personalizado | Personalizado | Define tus propios valores |
-
-### Controles
-
-- **Clic Derecho** (con cristal en mano): Coloca cristales optimizados en obsidiana/bedrock
-- **Clic Izquierdo** (mirando a un cristal): Destruye cristales con latencia reducida
+4. **Launch Minecraft**
+   - Select the Fabric profile
+   - Enjoy the mod!
 
 ---
 
-## 🛠️ Compilación desde el Código Fuente
+## 🎮 Usage
 
-### Requisitos
-- JDK 21 o superior
+### Available Commands
+
+```
+/optimizer toggle - Toggle the optimizer on/off
+/optimizer enable - Enable the optimizer
+/optimizer disable - Disable the optimizer
+```
+
+### Configuration Modes
+
+| Mode | Placement Cooldown | Break Cooldown | Description |
+|------|-------------------|----------------|-------------|
+| **Vanilla** | 250ms | 250ms | Vanilla Minecraft behavior |
+| **Legit** | 100ms | 100ms | Subtle improvement, hard to detect |
+| **Balanced** | 50ms | 50ms | Balance between performance and legitimacy |
+| **Aggressive** | 25ms | 25ms | Maximum performance (more detectable) |
+| **Custom** | Custom | Custom | Define your own values |
+
+### Controls
+
+- **Right Click** (with crystal in hand): Places optimized crystals on obsidian/bedrock
+- **Left Click** (looking at a crystal): Destroys crystals with reduced latency
+
+---
+
+## 🛠️ Building from Source
+
+### Requirements
+- JDK 21 or higher
 - Git
 
-### Pasos
+### Steps
 
 ```bash
-# Clona el repositorio
+# Clone the repository
 git clone https://github.com/iAkcc/iAxCrystalOptimizer.git
 cd iAxCrystalOptimizer
 
-# Compila el proyecto
+# Build the project
 ./gradlew build
 
-# El archivo .jar estará en build/libs/
+# The .jar file will be in build/libs/
 ```
 
 ---
 
-## 🔧 Configuración Técnica
+## 🔧 Technical Configuration
 
-### Sistema de Límite de Paquetes Adaptativo
+### Adaptive Packet Limit System
 
-El mod ajusta automáticamente el límite de paquetes basándose en tu ping:
+The mod automatically adjusts the packet limit based on your ping:
 
 ```java
-Ping < 50ms   → Límite: 3-4 paquetes
-Ping 50-100ms → Límite: 2-3 paquetes
-Ping > 100ms  → Límite: 1-2 paquetes
+Ping < 50ms   → Limit: 3-4 packets
+Ping 50-100ms → Limit: 2-3 packets
+Ping > 100ms  → Limit: 1-2 packets
 ```
 
-### Variación Aleatoria
+### Random Variation
 
-Para evitar patrones detectables, el mod añade una variación aleatoria del 30% al límite de paquetes, haciendo que el comportamiento parezca más humano.
+To avoid detectable patterns, the mod adds a 30% random variation to the packet limit, making the behavior appear more human-like.
 
 ---
 
-## 📝 Notas Importantes
+## 📝 Important Notes
 
 > [!WARNING]
-> Este mod está diseñado para uso en servidores que permiten mods del lado del cliente. **Úsalo bajo tu propio riesgo** en servidores con políticas estrictas contra mods de PvP.
+> This mod is designed for use on servers that allow client-side mods. **Use at your own risk** on servers with strict policies against PvP mods.
 
 > [!IMPORTANT]
-> El mod implementa medidas anti-detección, pero no garantiza que sea 100% indetectable en todos los servidores. Siempre verifica las reglas del servidor antes de usar.
+> The mod implements anti-detection measures, but does not guarantee that it is 100% undetectable on all servers. Always check the server rules before using.
 
 > [!NOTE]
-> El modo "Vanilla" está diseñado para ser completamente legítimo y no debería ser detectable, ya que replica el comportamiento vanilla de Minecraft.
+> The "Vanilla" mode is designed to be completely legitimate and should not be detectable, as it replicates vanilla Minecraft behavior.
 
 ---
 
-## 🤝 Contribuciones
+## 🤝 Contributing
 
-¡Las contribuciones son bienvenidas! Si deseas mejorar el mod:
+Contributions are welcome! If you want to improve the mod:
 
-1. Haz un Fork del proyecto
-2. Crea una rama para tu característica (`git checkout -b feature/NuevaCaracteristica`)
-3. Commit tus cambios (`git commit -m 'Añadir nueva característica'`)
-4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
-5. Abre un Pull Request
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+1. Fork the project
+2. Create a branch for your feature (`git checkout -b feature/NewFeature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
 
 ---
 
-## 👤 Autor
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## 👤 Author
 
 **iAxres**
 
@@ -166,15 +168,13 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ---
 
-## 🙏 Agradecimientos
+## 🙏 Acknowledgments
 
-- **Walksy** - Por el concepto original del Crystal Optimizer
-- **Fabric Team** - Por el increíble framework de modding
-- **MidnightDust** - Por MidnightLib y el sistema de configuración
+- **Walksy** - Thanks to Walksy for the Crystal Optimizer concept
 
 ---
 
-## 📊 Estadísticas del Proyecto
+## 📊 Project Stats
 
 ![GitHub stars](https://img.shields.io/github/stars/iAkcc/iAxCrystalOptimizer?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/iAkcc/iAxCrystalOptimizer?style=social)
@@ -184,7 +184,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 <div align="center">
 
-**⚡ Hecho con ❤️ por iAxres**
+**⚡ Made with ❤️ by iAxres**
 
 *"Place Crystals at the speed of light."*
 
