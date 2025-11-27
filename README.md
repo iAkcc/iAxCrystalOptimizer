@@ -68,9 +68,9 @@ A fork of the WalksyCrystal mod for Minecraft Fabric. It improves the placement 
 ### Available Commands
 
 ```
-/optimizer toggle - Toggle the optimizer on/off
-/optimizer enable - Enable the optimizer
-/optimizer disable - Disable the optimizer
+/iaxcrystal - Toggle the optimizer on/off
+/iaxmode (legit,balanced,performance) - Swap the modes between (legit, balanced and performance)
+/iaxstatus - Displays the currently selected mode
 ```
 
 ### Configuration Modes
